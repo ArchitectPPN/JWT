@@ -8,11 +8,8 @@
 
 $router->group(
 	[
-		'prefix' => '/common',
+		'prefix' => '/api/',
 	], function () use ($router) {
 
-	//公共字典
-	$router->get('test',  'Controller@Test');
-	$router->get('dictionarySearchType',  'Controller@dictionarySearchType');
-
+	$router->get('first-api',  'Controller@firstApi');
 });
