@@ -1,5 +1,11 @@
+# Dependent File
 /vendor
+
+# PhpStorm
 /.idea
+
 Homestead.json
 Homestead.yaml
+
+# config
 .env
