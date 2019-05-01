@@ -6,8 +6,8 @@ use Laravel\Lumen\Routing\Controller as BaseController;
 
 class Controller extends BaseController
 {
-    public function Test()
+    public function firstApi()
 	{
-		echo 1;
+		echo 'This Is First Api!';
 	}
 }
